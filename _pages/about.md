@@ -1,14 +1,12 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-# About Me
 
 Artificial intelligence and science fiction have captivated me since an early age. My longtime fascination with leveraging technology to uncover insights and solve complex problems has shaped my academic and professional journey.
 

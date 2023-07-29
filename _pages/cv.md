@@ -11,31 +11,44 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* MSc Data Science and Machine Learning, Hellenic Open University (_In progress_)
+* BS Computer Science, Hellenic Open University (_2022_)
+* Department of Mathematics, Aristotle University of Thessaloniki
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Data Analyst & Cybersecurity Consultant (_2022 - Present_)
+  - Consult with clients to understand business needs and requirements for data analytics and cybersecurity
+  - Create visualizations and data-driven Tableau and Power BI presentations to communicate insights and recommendations
+  - Build SQL queries to manipulate large datasets stored in MySQL databases
+  - Perform statistical analysis and modeling in Python using Pandas, NumPy, SciPy, and Scikit-learn to extract insights
+  - Assess cybersecurity vulnerabilities, risks and threats to develop robust security protocols and risk mitigation plans
+  - Continuously expand expertise in data science, cybersecurity, machine learning, and statistical modeling to provide cutting-edge
+  
+* Computer Technical Support, Sheffield-England (_2013 - 2015_)
+  - Diagnose and troubleshoot hardware and software issues to resolve problems, minimize downtime and restore functionality
+  - Perform hardware repairs and upgrades, including component replacement and installation services
+  - Conduct malware removal using best-practice security protocols to safeguard systems and data
+  - Provide proactive maintenance and expert guidance to optimize performance and mitigate risks
+  - Execute system audits to identify vulnerabilities; recommend and implement appropriate security measures
+  - Leverage technical expertise in varied OS environments including Windows, Mac, and Linux
+  - Communicate complex technical issues clearly to non-technical clients and provide excellent customer service
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Computer Technician @ DPM HELLAS, Volos-Greece (_2009 - 2013_)
+  - Configured and installed computer hardware
+  - Repaired, maintained, and updated systems and devices
+  - Conducted security cleanups on computer systems and devices
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python
+* R
+* SQL
+* Tableau
+* Power BI
+* Machine Learning
 
+<!---
 Publications
 ======
   <ul>{% for post in site.publications %}
@@ -57,3 +70,4 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+--->

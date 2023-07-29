@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 Education
-
+======
 * MSc Data Science and Machine Learning, Hellenic Open University (_In progress_)
 * BS Computer Science, Hellenic Open University (_2022_)
 * Department of Mathematics, Aristotle University of Thessaloniki

@@ -16,4 +16,4 @@ Throughout my studies, I have actively engaged in hands-on projects spanning nat
 
 Looking ahead, I aim to pursue a Doctor of Philosophy (PhD) focused on deep learning applications in cybersecurity. My goal is to develop AI solutions that enhance security and protect individuals from attacks. I believe AI can transform digital safety when thoughtfully applied.
 
-I am constantly seeking new opportunities and challenges where I can make a meaningful difference. Driven by curiosity and growth, I am committed to having a tangible impact through AI and analytics. Visit my GitHub profile at https://lkaragkounis.github.io/ for more information about my projects.
+I am constantly seeking new opportunities and challenges where I can make a meaningful difference. Driven by curiosity and growth, I am committed to having a tangible impact through AI and analytics. Visit my GitHub profile at [KaragkounisL](https://lkaragkounis.github.io/) for more information about my projects.

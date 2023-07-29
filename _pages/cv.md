@@ -10,10 +10,17 @@ redirect_from:
 {% include base_path %}
 
 Education
-======
+
 * MSc Data Science and Machine Learning, Hellenic Open University (_In progress_)
 * BS Computer Science, Hellenic Open University (_2022_)
 * Department of Mathematics, Aristotle University of Thessaloniki
+
+Certifications
+======
+* [Google Data Analytics Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/SQ47M8ZXVPTF)
+* [IBM Cybersecurity Analyst Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/9MXH63QPRTL3)
+* Web Design, E-Learning National and Kapodistrian University of Athens
+* Eshop Development, E-Learning National and Kapodistrian University of Athens
 
 Work experience
 ======

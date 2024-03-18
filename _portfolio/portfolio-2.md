@@ -1,6 +1,6 @@
 ---
 title: "Brain Tumor Classification model"
-excerpt: "Brain Tumor Classification CNN model<br/><img src='/images/tumor_predictions.png'>"
+excerpt: "In my personal project focusing on cancer detection, I developed a Convolutional Neural Network (CNN) model that demonstrates promising accuracy exceeding 96%. Next step will be refining the model's performance by integrating k-fold cross-validation and hyperparameter tuning techniques, aiming to enhance its efficacy in real-world scenarios.<br/><img src='/images/tumor_predictions.png'>"
 collection: portfolio
 ---
 

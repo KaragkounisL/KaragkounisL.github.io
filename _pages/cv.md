@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* MSc Data Science and Machine Learning, Hellenic Open University (_In progress_)
+* MSc Data Science and Machine Learning, Hellenic Open University (_2025_)
 * BS Computer Science, Hellenic Open University (_2022_)
 * Department of Mathematics, Aristotle University of Thessaloniki
 
@@ -24,7 +24,7 @@ Certifications
 
 Work experience
 ======
-* Data Analyst & Cybersecurity Consultant (_2022 - Present_)
+* Data Analyst & Cybersecurity Consultant (_2022 - 2023_)
   - Consult with clients to understand business needs and requirements for data analytics and cybersecurity
   - Create visualizations and data-driven Tableau and Power BI presentations to communicate insights and recommendations
   - Build SQL queries to manipulate large datasets stored in MySQL databases
@@ -32,7 +32,7 @@ Work experience
   - Assess cybersecurity vulnerabilities, risks and threats to develop robust security protocols and risk mitigation plans
   - Continuously expand expertise in data science, cybersecurity, machine learning, and statistical modeling to provide cutting-edge
   
-* Computer Technical Support, Sheffield-England (_2013 - 2015_)
+* Computer Technical Support, Sheffield-England (_2013 - 2014_)
   - Diagnose and troubleshoot hardware and software issues to resolve problems, minimize downtime and restore functionality
   - Perform hardware repairs and upgrades, including component replacement and installation services
   - Conduct malware removal using best-practice security protocols to safeguard systems and data

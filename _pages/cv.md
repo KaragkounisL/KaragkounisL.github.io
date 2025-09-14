@@ -11,6 +11,7 @@ redirect_from:
 
 Education
 ======
+* PhD Candidate, University of Macedonia (_TBD_)
 * MSc Data Science and Machine Learning, Hellenic Open University (_2025_)
 * BS Computer Science, Hellenic Open University (_2022_)
 * Department of Mathematics, Aristotle University of Thessaloniki
@@ -48,12 +49,9 @@ Work experience
   
 Skills
 ======
-* Python
-* R
-* SQL
-* Tableau
-* Power BI
-* Machine Learning
+* Programming: Python, R, SQL
+* Data & Analytics: Tableau, Power BI, Data Modeling
+* AI/ML: Explainable AI, Reinforcement Learning, Pytorch, Scikit-learn, TensorFlow
 
 <!---
 Publications

@@ -26,21 +26,21 @@ Certifications
 Work experience
 ======
 * Data Analyst & Cybersecurity Consultant (_2022 - 2023_)
-  - Consult with clients to understand business needs and requirements for data analytics and cybersecurity
-  - Create visualizations and data-driven Tableau and Power BI presentations to communicate insights and recommendations
-  - Build SQL queries to manipulate large datasets stored in MySQL databases
-  - Perform statistical analysis and modeling in Python using Pandas, NumPy, SciPy, and Scikit-learn to extract insights
-  - Assess cybersecurity vulnerabilities, risks and threats to develop robust security protocols and risk mitigation plans
-  - Continuously expand expertise in data science, cybersecurity, machine learning, and statistical modeling to provide cutting-edge
+  - Consulted with clients to understand business needs and requirements for data analytics and cybersecurity
+  - Created visualizations and data-driven Tableau and Power BI presentations to communicate insights and recommendations
+  - Built SQL queries to manipulate large datasets stored in MySQL databases
+  - Performed statistical analysis and modeling in Python using Pandas, NumPy, SciPy, and Scikit-learn to extract insights
+  - Assessed cybersecurity vulnerabilities, risks and threats to develop robust security protocols and risk mitigation plans
+  - Continuously expanded expertise in data science, cybersecurity, machine learning, and statistical modeling
   
 * Computer Technical Support, Sheffield-England (_2013 - 2014_)
-  - Diagnose and troubleshoot hardware and software issues to resolve problems, minimize downtime and restore functionality
-  - Perform hardware repairs and upgrades, including component replacement and installation services
-  - Conduct malware removal using best-practice security protocols to safeguard systems and data
-  - Provide proactive maintenance and expert guidance to optimize performance and mitigate risks
-  - Execute system audits to identify vulnerabilities; recommend and implement appropriate security measures
-  - Leverage technical expertise in varied OS environments including Windows, Mac, and Linux
-  - Communicate complex technical issues clearly to non-technical clients and provide excellent customer service
+  - Diagnosed and troubleshoot hardware and software issues to resolve problems, minimize downtime and restore functionality
+  - Performed hardware repairs and upgrades, including component replacement and installation services
+  - Conducted malware removal using best-practice security protocols to safeguard systems and data
+  - Provided proactive maintenance and expert guidance to optimize performance and mitigate risks
+  - Executed system audits to identify vulnerabilities; recommend and implement appropriate security measures
+  - Leveraged technical expertise in varied OS environments including Windows, Mac, and Linux
+  - Communicated complex technical issues clearly to non-technical clients and provide excellent customer service
 
 * Computer Technician @ DPM HELLAS, Volos-Greece (_2009 - 2013_)
   - Configured and installed computer hardware

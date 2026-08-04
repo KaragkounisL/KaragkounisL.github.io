@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I hold a BSc in Computer Science and an MSc in Data Science and Machine Learning, along with professional certifications including Google Data Analytics Professional and IBM Cybersecurity Analyst, and I am preparing to commence doctoral studies in late 2025. My research focuses on adaptive, Explainable Artificial Intelligence for cybersecurity, with particular emphasis on interpretable deep-learning approaches for detecting and mitigating Advanced Persistent Threats in SOCs.
+I am a PhD Candidate in Cybersecurity at the University of Macedonia, holding an MSc in Data Science and Machine Learning and a BSc in Computer Science. Complementing my academic background are professional certifications including the Google Data Analytics Professional and IBM Cybersecurity Analyst. My research focuses on Human-Centric Adaptive Explainable Artificial Intelligence, with particular emphasis on leveraging Reinforcement Learning to enhance threat detection and analyst resilience against Advanced Persistent Threats in Security Operations Centers.

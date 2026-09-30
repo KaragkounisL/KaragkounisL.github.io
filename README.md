@@ -11,11 +11,11 @@ Personal academic website built with Jekyll and hosted on GitHub Pages at <https
 - `_pages/talks.html`: conferences and talks, populated from `_data/talks.yml`.
 - `_pages/teaching.html`: teaching and service, populated from `_data/teaching.yml` and `_data/service.yml`.
 - `_pages/portfolio.html`: projects page. New projects can be added here when ready.
-- `assets/css/academic.css`: dark site design and responsive styling.
+- `assets/css/academic.css`: compact site design and responsive styling.
 - `_layouts/default.html`: shared header and footer.
 - `_config.yml`: site metadata and profile links.
 
-The previous template's sample blog posts, publications, talks, teaching entries, and projects have been removed. Academic pages show a clear empty state until verified entries are added.
+The previous template's sample blog posts, publications, talks, teaching entries, and projects have been removed. Empty Publications, Talks, and Teaching pages are ready but hidden from the main navigation until entries are added. Current research repositories are private and are not presented as public projects.
 
 ## Add academic entries
 

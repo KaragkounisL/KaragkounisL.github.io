@@ -1,45 +1,15 @@
 ---
 layout: academic-page
-title: "Academic CV"
-kicker: "BACKGROUND / EXPERIENCE"
-intro: "Research at the intersection of explainable AI, adaptive learning, and cybersecurity."
+title: "Curriculum vitae"
+kicker: "Academic and professional background"
+intro: "Leonidas Christos Karagkounis"
 permalink: /cv/
 redirect_from:
   - /resume
 ---
-
-<section class="cv-section" aria-labelledby="cv-education">
-  <div class="cv-section-label"><span>01 / EDUCATION</span><h2 id="cv-education">Academic background</h2></div>
-  <div class="cv-items">
-    <article class="cv-item"><span class="cv-date">2025 — present</span><div><h3>PhD candidate in Cybersecurity</h3><p class="cv-place">University of Macedonia · Department of Applied Informatics</p><p>Thesis: <em>Human-Centric Adaptive Explainable AI in Security Operations Centers</em>. Supervisor: Prof. Ioannis Mavridis.</p></div></article>
-    <article class="cv-item"><span class="cv-date">2025</span><div><h3>MSc in Data Science and Machine Learning</h3><p class="cv-place">Hellenic Open University</p></div></article>
-    <article class="cv-item"><span class="cv-date">2022</span><div><h3>BSc in Computer Science</h3><p class="cv-place">Hellenic Open University</p></div></article>
-  </div>
-</section>
-<section class="cv-section" aria-labelledby="cv-research">
-  <div class="cv-section-label"><span>02 / RESEARCH</span><h2 id="cv-research">Areas of interest</h2></div>
-  <div class="cv-items"><p class="cv-lead">Human-centric explainable AI, reinforcement learning, threat detection, and analyst support in security operations centers.</p><div class="cv-tags"><span>Explainable AI</span><span>Reinforcement learning</span><span>Cybersecurity</span><span>Security operations</span></div></div>
-</section>
-<section class="cv-section" aria-labelledby="cv-honors">
-  <div class="cv-section-label"><span>03 / RECOGNITION</span><h2 id="cv-honors">Honors</h2></div>
-  <div class="cv-items">
-    <article class="cv-item"><span class="cv-date">2024/25</span><div><h3>Scholarship of Excellence</h3><p class="cv-place">Hellenic Open University</p></div></article>
-    <article class="cv-item"><span class="cv-date">2023/24</span><div><h3>Scholarship of Excellence</h3><p class="cv-place">Hellenic Open University</p></div></article>
-  </div>
-</section>
-<section class="cv-section" aria-labelledby="cv-experience">
-  <div class="cv-section-label"><span>04 / EXPERIENCE</span><h2 id="cv-experience">Professional experience</h2></div>
-  <div class="cv-items">
-    <article class="cv-item"><span class="cv-date">2022 — 2023</span><div><h3>Data analyst &amp; cybersecurity consultant</h3><p>Worked across data analysis, visualization, statistical modeling, and security risk assessment.</p></div></article>
-    <article class="cv-item"><span class="cv-date">2013 — 2014</span><div><h3>Computer technical support</h3><p class="cv-place">Sheffield, United Kingdom</p></div></article>
-    <article class="cv-item"><span class="cv-date">2009 — 2013</span><div><h3>Computer technician</h3><p class="cv-place">DPM HELLAS · Volos, Greece</p></div></article>
-  </div>
-</section>
-<section class="cv-section" aria-labelledby="cv-skills">
-  <div class="cv-section-label"><span>05 / METHODS</span><h2 id="cv-skills">Tools &amp; training</h2></div>
-  <div class="cv-items"><div class="cv-skills"><p><strong>Programming</strong> Python, R, SQL</p><p><strong>Machine learning</strong> PyTorch, scikit-learn, TensorFlow</p><p><strong>Analytics</strong> Tableau, Power BI</p></div><div class="cv-certificates"><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/SQ47M8ZXVPTF" target="_blank" rel="noopener noreferrer">Google Data Analytics Specialization ↗</a><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/9MXH63QPRTL3" target="_blank" rel="noopener noreferrer">IBM Cybersecurity Analyst Specialization ↗</a></div></div>
-</section>
-<section class="cv-section" aria-labelledby="cv-activity">
-  <div class="cv-section-label"><span>06 / ACADEMIC RECORD</span><h2 id="cv-activity">Research activity</h2></div>
-  <div class="cv-items"><div class="academic-links"><a href="{{ '/research/' | relative_url }}">Research overview →</a><a href="{{ '/publications/' | relative_url }}">Publications →</a><a href="{{ '/talks/' | relative_url }}">Conferences &amp; talks →</a><a href="{{ '/teaching/' | relative_url }}">Teaching &amp; service →</a></div></div>
-</section>
+<section class="cv-section" aria-labelledby="cv-positions"><h2 id="cv-positions">Current positions</h2><div class="cv-rows"><div class="cv-row"><time>2025-present</time><div><strong>PhD candidate in Computer Science</strong><span>University of Macedonia | MSN Lab</span><p>Thesis: <em>Human-Centric Adaptive Explainable AI in Security Operations Centers</em>. Supervisor: Prof. Ioannis Mavridis.</p></div></div><div class="cv-row"><time>Mar 2026-present</time><div><strong>Research and Development Engineer</strong><span>Independent (freelance) R&amp;D services</span></div></div></div></section>
+<section class="cv-section" aria-labelledby="cv-education"><h2 id="cv-education">Education</h2><div class="cv-rows"><div class="cv-row"><time>2025</time><div><strong>MSc, Data Science and Machine Learning</strong><span>Hellenic Open University</span></div></div><div class="cv-row"><time>2022</time><div><strong>BSc, Computer Science</strong><span>Hellenic Open University</span></div></div><div class="cv-row"><time>Earlier</time><div><strong>Mathematics studies</strong><span>Aristotle University of Thessaloniki</span></div></div></div></section>
+<section class="cv-section" aria-labelledby="cv-experience"><h2 id="cv-experience">Earlier experience</h2><div class="cv-rows"><div class="cv-row"><time>2022-2023</time><div><strong>Data analyst and cybersecurity consultant</strong><p>Data analysis and visualization with Python, SQL, Tableau, and Power BI; security risk assessment.</p></div></div><div class="cv-row"><time>2013-2014</time><div><strong>Computer technical support</strong><span>Sheffield, United Kingdom</span></div></div><div class="cv-row"><time>2009-2013</time><div><strong>Computer technician</strong><span>DPM HELLAS | Volos, Greece</span></div></div></div></section>
+<section class="cv-section" aria-labelledby="cv-honors"><h2 id="cv-honors">Honors</h2><div class="cv-rows"><div class="cv-row"><time>2024/25</time><div><strong>Scholarship of Excellence</strong><span>Hellenic Open University</span></div></div><div class="cv-row"><time>2023/24</time><div><strong>Scholarship of Excellence</strong><span>Hellenic Open University</span></div></div></div></section>
+<section class="cv-section" aria-labelledby="cv-certifications"><h2 id="cv-certifications">Certifications and training</h2><div class="cv-rows"><div class="cv-row"><time>2022</time><div><strong><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/9MXH63QPRTL3" target="_blank" rel="noopener noreferrer">IBM Cybersecurity Analyst Specialization &#8599;</a></strong></div></div><div class="cv-row"><time>2022</time><div><strong><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/SQ47M8ZXVPTF" target="_blank" rel="noopener noreferrer">Google Data Analytics Specialization &#8599;</a></strong></div></div><div class="cv-row"><time>Earlier</time><div><strong>Web Design; Eshop Development</strong><span>E-Learning, National and Kapodistrian University of Athens</span></div></div></div></section>
+<section class="cv-section" aria-labelledby="cv-methods"><h2 id="cv-methods">Methods and tools</h2><div><p>Python, R, SQL; PyTorch, scikit-learn, TensorFlow; SHAP, LIME, Captum; Tableau and Power BI.</p></div></section>

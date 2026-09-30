@@ -1,54 +1,22 @@
 ---
 layout: default
 ---
-<main class="academic-home" id="main">
-  <section class="home-hero" aria-labelledby="hero-title">
-    <div class="home-container hero-grid">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="eyebrow-dot"></span> PhD candidate · University of Macedonia</p>
-        <h1 id="hero-title">Leonidas Christos<br><em>Karagkounis.</em></h1>
-        <p class="hero-lede">Making AI in cybersecurity more understandable, adaptive, and useful to the people who rely on it.</p>
-        <p class="hero-detail">I study human-centric explainable AI and reinforcement learning for threat detection and analyst support in security operations centers.</p>
-        <div class="hero-actions">
-          <a class="home-button home-button-primary" href="#research">Explore my research <span aria-hidden="true">↗</span></a>
-          <a class="home-button home-button-text" href="{{ '/cv/' | relative_url }}">View CV <span aria-hidden="true">→</span></a>
-        </div>
-      </div>
-      <div class="hero-visual">
-        <div class="portrait-frame"><img src="{{ '/images/profile.jpg' | relative_url }}" alt="Portrait of Leonidas Christos Karagkounis" width="400" height="393"></div>
-        <div class="portrait-caption"><span>RESEARCH / PRACTICE</span><span>Thessaloniki, Greece</span></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="home-section research-section" id="research" aria-labelledby="research-title">
-    <div class="home-container">
-      <div class="section-heading"><p class="section-kicker">01 / RESEARCH</p><h2 id="research-title">Research for the human side of security.</h2></div>
-      <div class="research-grid">
-        <div class="research-intro"><p>My doctoral research explores how adaptive, explainable AI can help security analysts identify and respond to advanced persistent threats while supporting trust and resilience in their work.</p><p class="research-meta"><span>DOCTORAL THESIS</span>Human-Centric Adaptive Explainable AI in Security Operations Centers<br><span>SUPERVISOR</span>Prof. Ioannis Mavridis</p><a class="inline-link" href="https://msnlab.uom.gr/533-2/" target="_blank" rel="noopener noreferrer">Multimedia, Security & Networking Lab <span aria-hidden="true">↗</span></a></div>
-        <div class="research-topics">
-          <article class="topic"><span class="topic-number">01</span><div><h3>Explainable AI</h3><p>Turning model decisions into insights that analysts can interpret and act on.</p></div></article>
-          <article class="topic"><span class="topic-number">02</span><div><h3>Reinforcement learning</h3><p>Exploring adaptive methods for changing threats and operational conditions.</p></div></article>
-          <article class="topic"><span class="topic-number">03</span><div><h3>Security operations</h3><p>Designing around the needs and judgment of people working in SOCs.</p></div></article>
-        </div>
-      </div>
-      <div class="academic-pathways" aria-label="Academic pages"><a href="{{ '/research/' | relative_url }}"><span>01 / RESEARCH</span><strong>Research overview</strong><span aria-hidden="true">↗</span></a><a href="{{ '/publications/' | relative_url }}"><span>02 / OUTPUT</span><strong>Publications</strong><span aria-hidden="true">↗</span></a><a href="{{ '/talks/' | relative_url }}"><span>03 / EVENTS</span><strong>Conferences &amp; talks</strong><span aria-hidden="true">↗</span></a><a href="{{ '/teaching/' | relative_url }}"><span>04 / COMMUNITY</span><strong>Teaching &amp; service</strong><span aria-hidden="true">↗</span></a></div>
-    </div>
-  </section>
-
-  <section class="home-section background-section" id="background" aria-labelledby="background-title">
-    <div class="home-container background-grid">
-      <div class="section-heading"><p class="section-kicker">02 / BACKGROUND</p><h2 id="background-title">Computer science meets applied research.</h2></div>
-      <div class="background-content"><p>I am a PhD candidate in cybersecurity at the University of Macedonia. I hold an MSc in Data Science and Machine Learning and a BSc in Computer Science from the Hellenic Open University.</p><p>My background spans data analysis, machine learning, and cybersecurity, with a focus on connecting technical methods to real-world questions.</p><a class="inline-link" href="{{ '/cv/' | relative_url }}">Education, experience & skills <span aria-hidden="true">→</span></a></div>
-    </div>
-  </section>
-
-  <section class="home-section projects-section" id="projects" aria-labelledby="projects-title">
-    <div class="home-container">
-      <div class="section-heading projects-heading"><div><p class="section-kicker">03 / PROJECTS</p><h2 id="projects-title">Projects in development.</h2></div><a class="inline-link" href="{{ '/portfolio/' | relative_url }}">Projects page <span aria-hidden="true">→</span></a></div>
-      <div class="project-pending"><div class="pending-symbol" aria-hidden="true">↗</div><div><p class="project-type">NEW WORK IN PREPARATION</p><h3>Research &amp; projects</h3><p>Selected research and technical projects will appear here as they are ready to share.</p></div><a class="inline-link" href="{{ '/portfolio/' | relative_url }}">Projects page <span aria-hidden="true">→</span></a></div>
-    </div>
-  </section>
-
-  <section class="home-contact" id="contact" aria-labelledby="contact-title"><div class="home-container contact-grid"><div><p class="section-kicker">04 / CONNECT</p><h2 id="contact-title">Interested in the work?</h2><p>Explore my research profiles and code.</p></div><div class="contact-links"><a href="https://orcid.org/0009-0007-7059-5379" target="_blank" rel="noopener noreferrer">ORCID <span aria-hidden="true">↗</span></a><a href="https://github.com/KaragkounisL" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div></div></section>
+<main id="main" class="profile-page site-shell">
+  <aside class="profile-aside" aria-label="Profile">
+    <img class="profile-photo" src="{{ '/images/profile.jpg' | relative_url }}" alt="Leonidas Christos Karagkounis" width="400" height="393">
+    <p>Thessaloniki, Greece</p>
+    <div class="profile-links"><a href="https://orcid.org/0009-0007-7059-5379" target="_blank" rel="noopener noreferrer">ORCID &#8599;</a><a href="https://github.com/KaragkounisL" target="_blank" rel="noopener noreferrer">GitHub &#8599;</a></div>
+  </aside>
+  <div class="profile-main">
+    <header class="profile-intro">
+      <p class="role-line">PhD candidate | Research and Development Engineer</p>
+      <h1>Leonidas Christos Karagkounis</h1>
+      <p class="affiliation">MSN Lab | University of Macedonia</p>
+      <p>I am a PhD candidate in Computer Science at the University of Macedonia. My research examines adaptive explainable AI and reinforcement learning for security operations centers. Since March 2026, I have provided independent R&amp;D services.</p>
+    </header>
+    <section class="profile-section" aria-labelledby="home-research"><h2 id="home-research">Research</h2><div><p>My doctoral thesis is <em>Human-Centric Adaptive Explainable AI in Security Operations Centers</em>, supervised by Prof. Ioannis Mavridis.</p><p>My other interests include intelligent tutoring systems and neuro-symbolic AI. See the <a href="{{ '/research/' | relative_url }}">research page</a> for details.</p></div></section>
+    <section class="profile-section" aria-labelledby="home-positions"><h2 id="home-positions">Current positions</h2><div class="compact-list"><div><strong>PhD candidate</strong><span>University of Macedonia | 2025-present</span></div><div><strong>Research and Development Engineer</strong><span>Independent | March 2026-present</span></div></div></section>
+    <section class="profile-section" aria-labelledby="home-education"><h2 id="home-education">Education</h2><div class="compact-list"><div><strong>MSc, Data Science and Machine Learning</strong><span>Hellenic Open University | 2025</span></div><div><strong>BSc, Computer Science</strong><span>Hellenic Open University | 2022</span></div></div></section>
+    <section class="profile-section" aria-labelledby="home-more"><h2 id="home-more">More information</h2><div><p>The <a href="{{ '/cv/' | relative_url }}">CV page</a> lists experience, scholarships, technical skills, and certifications. Research code and manuscripts currently in progress are private.</p></div></section>
+  </div>
 </main>

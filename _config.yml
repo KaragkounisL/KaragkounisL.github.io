@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Leonidas Christos Karagkounis"
 title_separator          : "-"
 name                     : &name "Leonidas Christos Karagkounis"
-description              : &description "PhD candidate researching human-centric explainable AI and cybersecurity at the University of Macedonia."
+description              : &description "PhD candidate at the University of Macedonia and independent research and development engineer."
 url                      : https://KaragkounisL.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "KaragkounisL/KaragkounisL.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Leonidas Christos Karagkounis"
   avatar           : "profile.jpg"
-  bio              : "PhD Candidate focused on XAI & Reinforcement Learning in Cybersecurity | MSc in Data Science & ML"
+  bio              : "PhD candidate at the University of Macedonia; independent R&D services since March 2026."
   location         : "Greece"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

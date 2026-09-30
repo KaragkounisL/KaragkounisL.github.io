@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Leonidas Karagkounis"
+title                    : "Leonidas Christos Karagkounis"
 title_separator          : "-"
-name                     : &name "Leonidas Karagkounis"
-description              : &description "personal description"
+name                     : &name "Leonidas Christos Karagkounis"
+description              : &description "PhD candidate researching human-centric explainable AI and cybersecurity at the University of Macedonia."
 url                      : https://KaragkounisL.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "KaragkounisL/KaragkounisL.github.io"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Leonidas Karagkounis"
+  name             : "Leonidas Christos Karagkounis"
   avatar           : "profile.jpg"
   bio              : "PhD Candidate focused on XAI & Reinforcement Learning in Cybersecurity | MSc in Data Science & ML"
   location         : "Greece"

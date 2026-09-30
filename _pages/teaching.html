@@ -1,12 +1,11 @@
 ---
-layout: archive
-title: "Teaching"
+layout: academic-page
+title: "Teaching & Service"
+kicker: "ACADEMIC CONTRIBUTIONS"
+intro: "Teaching, mentoring, reviewing, and service to the research community."
 permalink: /teaching/
-author_profile: true
 ---
-
-{% include base_path %}
-
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<section class="academic-data-section" aria-labelledby="teaching-heading"><div class="data-section-heading"><span>01 / TEACHING</span><h2 id="teaching-heading">Teaching &amp; mentoring</h2></div>
+{% if site.data.teaching.size > 0 %}<div class="academic-list">{% for item in site.data.teaching %}<article class="academic-entry"><div class="entry-side"><span>{{ item.term | escape }}</span>{% if item.role %}<span>{{ item.role | escape }}</span>{% endif %}</div><div class="entry-main"><h3>{{ item.course | escape }}</h3>{% if item.institution %}<p class="entry-venue">{{ item.institution | escape }}</p>{% endif %}{% if item.description %}<p>{{ item.description | escape }}</p>{% endif %}{% if item.url %}<div class="entry-links"><a href="{{ item.url | escape }}" target="_blank" rel="noopener noreferrer">Course ↗</a></div>{% endif %}</div></article>{% endfor %}</div>{% else %}<p class="section-empty">Teaching and mentoring activities will be added when available.</p>{% endif %}</section>
+<section class="academic-data-section" aria-labelledby="service-heading"><div class="data-section-heading"><span>02 / SERVICE</span><h2 id="service-heading">Academic service</h2></div>
+{% if site.data.service.size > 0 %}<div class="academic-list">{% for item in site.data.service %}<article class="academic-entry"><div class="entry-side"><span>{{ item.year | escape }}</span>{% if item.type %}<span>{{ item.type | escape }}</span>{% endif %}</div><div class="entry-main"><h3>{{ item.title | escape }}</h3>{% if item.organization %}<p class="entry-venue">{{ item.organization | escape }}</p>{% endif %}{% if item.description %}<p>{{ item.description | escape }}</p>{% endif %}{% if item.url %}<div class="entry-links"><a href="{{ item.url | escape }}" target="_blank" rel="noopener noreferrer">Details ↗</a></div>{% endif %}</div></article>{% endfor %}</div>{% else %}<p class="section-empty">Reviewing, organizing, and community service activities will be added when available.</p>{% endif %}</section>

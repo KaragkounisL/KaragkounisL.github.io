@@ -1,31 +1,31 @@
 ---
 layout: compress
 ---
-
-{% include base_path %}
-
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+<html lang="{{ site.locale | slice: 0,2 }}">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
-
   <body>
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="home-container site-header-inner">
+        <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="Leonidas Christos Karagkounis, home"><span class="brand-mark">LK<span class="brand-period">.</span></span><span class="brand-name">Leonidas Christos<br>Karagkounis</span></a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="{{ '/research/' | relative_url }}">Research</a>
+          <a href="{{ '/publications/' | relative_url }}">Publications</a>
+          <a href="{{ '/talks/' | relative_url }}">Talks</a>
+          <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
+          <a href="{{ '/portfolio/' | relative_url }}">Projects</a>
+          <a href="{{ '/cv/' | relative_url }}">CV</a>
+        </nav>
+        <a class="header-profile" href="https://orcid.org/0009-0007-7059-5379" target="_blank" rel="noopener noreferrer">ORCID <span aria-hidden="true">↗</span></a>
+      </div>
+    </header>
     {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
-
-    {% include scripts.html %}
-
+    <footer class="site-footer">
+      <div class="home-container site-footer-inner"><span>© {{ site.time | date: '%Y' }} Leonidas Christos Karagkounis</span><span>Research · AI · Cybersecurity</span><a href="#main">Back to top ↑</a></div>
+    </footer>
   </body>
 </html>

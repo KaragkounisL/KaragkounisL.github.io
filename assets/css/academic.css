@@ -20,3 +20,33 @@ body{padding-bottom:0}.academic-home#main,.interior-page#main{max-width:none;wid
 @media(max-width:1150px){.site-header-inner{flex-wrap:wrap;gap:.7rem;padding-top:1rem;padding-bottom:1rem}.site-brand{min-width:0;margin-right:auto}.site-nav{order:3;width:100%;justify-content:space-between;margin:0;gap:1rem}.header-profile{margin:0}}
 @media(max-width:800px){.academic-pathways{grid-template-columns:repeat(2,1fr)}.academic-feature,.data-section-heading{grid-template-columns:1fr;gap:1.1rem}.research-facts,.focus-grid{grid-template-columns:1fr}.section-empty{margin-left:0}}
 @media(max-width:600px){.site-nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.85rem 1rem}.site-nav a{font-size:.64rem}.academic-pathways{grid-template-columns:1fr 1fr}.academic-pathways a{padding:1rem;min-height:110px}.academic-pathways a strong{font-size:.77rem}.academic-pathways a span:last-child{right:1rem;top:1rem}.academic-entry{grid-template-columns:1fr;gap:.7rem}.entry-side{flex-direction:row;gap:1rem}.academic-empty{padding:2rem}}
+
+/* Compact spacing across the homepage and academic pages. */
+.site-header-inner{min-height:70px}
+.hero-grid{min-height:0;padding-top:3.8rem;padding-bottom:4.2rem;gap:5%}
+.eyebrow{margin-bottom:1.2rem}
+.hero-copy h1{margin-bottom:1.2rem}
+.hero-lede{margin-bottom:.8rem}
+.hero-actions{margin-top:1.4rem}
+.home-section{padding:4.25rem 0}
+.section-heading h2{margin-top:.45rem}
+.research-grid{gap:6%;margin-top:2.4rem}
+.background-grid,.contact-grid{gap:6%}
+.academic-pathways{margin-top:2.6rem}
+.academic-pathways a{min-height:106px;padding:1rem}
+.home-contact{padding:4.25rem 0}
+.project-pending,.projects-intro{padding:2rem}
+.projects-intro{min-height:220px}
+.site-footer-inner{min-height:72px}
+.interior-hero{padding:3.5rem 0 3.2rem}
+.interior-hero h1{margin:.8rem 0 .7rem}
+.interior-content{padding-top:3rem;padding-bottom:4.2rem}
+.cv-section{padding:2rem 0}
+.cv-item{padding:1rem 0}
+.academic-feature{padding:2.2rem 0}
+.research-facts{margin-top:1.5rem}
+.academic-entry{padding:1.4rem 0}
+.academic-empty{padding:2.25rem}
+.academic-data-section{padding:1.8rem 0 2.8rem}
+@media(max-width:900px){.site-header-inner{padding-top:.7rem;padding-bottom:.7rem}.hero-grid{padding-top:3.2rem;padding-bottom:3.4rem;gap:2rem}.home-section{padding:3.4rem 0}.research-grid{gap:2rem}}
+@media(max-width:600px){.hero-grid{padding-top:2.8rem;padding-bottom:3rem}.home-section{padding:3rem 0}.interior-hero{padding:2.8rem 0}.interior-content{padding-top:2.5rem;padding-bottom:3.3rem}.home-contact{padding:3.2rem 0}.project-pending,.projects-intro{padding:1.5rem}.academic-empty{padding:1.5rem}}

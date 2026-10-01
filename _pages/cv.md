@@ -7,7 +7,7 @@ redirect_from:
 ---
 <section>
 <h2>Short bio</h2>
-<p class="bio-box">Leonidas Christos Karagkounis is a PhD candidate in the Department of Applied Informatics at the University of Macedonia, Greece, supervised by Prof. Ioannis Mavridis. The doctoral research concerns explainable AI for security operations centers, in particular explanations that adapt to the analyst using them. Leonidas holds an MSc in Data Science and Machine Learning and a BSc in Computer Science from the Hellenic Open University, and also works as an independent consultant in cybersecurity and AI.</p>
+<p class="bio-box">Leonidas Christos Karagkounis is a PhD candidate in the Department of Applied Informatics at the University of Macedonia, Greece, supervised by Prof. Ioannis Mavridis. This research addresses human-centric explainable AI for security operations centers, with a focus on explanations that adapt to the individual analyst. Leonidas holds an MSc in Data Science and Machine Learning and a BSc in Computer Science from the Hellenic Open University, and also provides independent research and consulting services in cybersecurity and artificial intelligence.</p>
 </section>
 
 <section>

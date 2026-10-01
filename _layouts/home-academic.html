@@ -1,28 +1,26 @@
 ---
 layout: default
 ---
-<main id="main" class="profile-page site-shell">
-  <div class="profile-main">
-    <header class="profile-intro">
+<main id="main" class="home site-shell">
+  <header class="home-header">
+    <img class="profile-photo" src="{{ '/images/profile.jpg' | relative_url }}" alt="Portrait of Leonidas Christos Karagkounis" width="400" height="393">
+    <div>
       <h1>Leonidas Christos Karagkounis</h1>
       <p class="subtitle">PhD candidate in Computer Science, University of Macedonia</p>
-    </header>
-    <p>I am a PhD candidate in the Department of Applied Informatics at the University of Macedonia in Thessaloniki. I work in the <a href="https://msnlab.uom.gr/" target="_blank" rel="noopener noreferrer">MSN Lab</a> with Prof. Ioannis Mavridis.</p>
-    <p>My thesis is about explainable AI in security operations centers. Analysts there work through a constant stream of alerts, and the machine-learning models that raise many of them rarely say why. I study explanations that adapt to the analyst using them, so that people can act on real threats sooner and can tell when the model should not be trusted.</p>
-    <p>Before the PhD I studied mathematics at Aristotle University of Thessaloniki, then computer science and later data science at the Hellenic Open University. I also consult and provide research services in cybersecurity and AI.</p>
-
-    <h2>News</h2>
-    <ul class="news">
-      {% for item in site.data.news %}<li><time>{{ item.date }}</time><span>{{ item.text }}</span></li>{% endfor %}
-    </ul>
+      <p class="home-links"><span>Thessaloniki, Greece</span><a href="{{ '/cv/' | relative_url }}">CV</a><a href="https://orcid.org/0009-0007-7059-5379" target="_blank" rel="noopener noreferrer">ORCID</a><a href="https://github.com/KaragkounisL" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://msnlab.uom.gr/" target="_blank" rel="noopener noreferrer">Contact via MSN Lab</a></p>
+    </div>
+  </header>
+  <div class="home-body">
+    <div class="home-bio">
+      <p>I am a doctoral candidate in Computer Science at the Department of Applied Informatics, University of Macedonia, Thessaloniki, and a member of the <a href="https://msnlab.uom.gr/" target="_blank" rel="noopener noreferrer">MSN Lab</a>, where I am supervised by Prof. Ioannis Mavridis.</p>
+      <p>My research concerns human-centric explainable artificial intelligence (XAI) for security operations centers (SOCs). I investigate adaptive explanation methods for machine-learning-based detection, with the aim of supporting analysts in the detection of and response to advanced persistent threats, and of fostering appropriately calibrated trust in automated decisions. Further details are given on the <a href="{{ '/research/' | relative_url }}">research page</a>.</p>
+      <p>I hold an MSc in Data Science and Machine Learning (2025) and a BSc in Computer Science (2022) from the Hellenic Open University, and previously studied Mathematics at the Aristotle University of Thessaloniki. Alongside my doctoral studies, I provide independent research and consulting services in cybersecurity and artificial intelligence.</p>
+    </div>
+    <aside class="home-news" aria-labelledby="news-heading">
+      <h2 id="news-heading">News</h2>
+      <ul class="news">
+        {% for item in site.data.news %}<li><time>{{ item.date }}</time><span>{{ item.text }}</span></li>{% endfor %}
+      </ul>
+    </aside>
   </div>
-  <aside class="profile-aside" aria-label="Profile">
-    <img class="profile-photo" src="{{ '/images/profile.jpg' | relative_url }}" alt="Portrait of Leonidas Christos Karagkounis" width="400" height="393">
-    <ul>
-      <li><a href="{{ '/cv/' | relative_url }}">CV</a></li>
-      <li><a href="https://orcid.org/0009-0007-7059-5379" target="_blank" rel="noopener noreferrer">ORCID</a></li>
-      <li><a href="https://github.com/KaragkounisL" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-    </ul>
-    <p>Thessaloniki, Greece.<br>Contact via the <a href="https://msnlab.uom.gr/" target="_blank" rel="noopener noreferrer">MSN Lab</a>.</p>
-  </aside>
 </main>

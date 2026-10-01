@@ -1,9 +1,9 @@
-# Newest first. `date` is the text shown in the left column.
+# Newest first. `date` is the text shown above each item.
 - date: "Jul 2026"
-  text: "Appointed teaching assistant for two courses in the Department of Applied Informatics for 2026–27: Networks and Web Applications Security, and Information and Systems Security."
+  text: "Appointed teaching assistant in the Department of Applied Informatics for 2026–27, for the courses Networks and Web Applications Security, and Information and Systems Security."
 - date: "Dec 2025"
-  text: "Started my PhD at the University of Macedonia, supervised by Prof. Ioannis Mavridis."
+  text: "Commenced doctoral studies at the University of Macedonia under the supervision of Prof. Ioannis Mavridis."
 - date: "2025"
   text: "Completed the MSc in Data Science and Machine Learning at the Hellenic Open University."
 - date: "2023–25"
-  text: "Awarded the Hellenic Open University's Scholarship of Excellence in two consecutive years."
+  text: "Awarded the Scholarship of Excellence of the Hellenic Open University for two consecutive academic years."

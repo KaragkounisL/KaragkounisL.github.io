@@ -1,20 +1,7 @@
 ---
 layout: academic-page
 title: "Publications"
-kicker: "ACADEMIC OUTPUT / WRITING"
-intro: "Peer-reviewed articles, conference papers, preprints, and other scholarly writing."
 permalink: /publications/
 ---
 {% assign publications = site.data.publications | sort: 'year' | reverse %}
-{% if publications.size > 0 %}
-  <div class="academic-list" aria-label="Publications">
-    {% for item in publications %}
-      <article class="academic-entry">
-        <div class="entry-side"><span>{{ item.year }}</span>{% if item.type %}<span>{{ item.type }}</span>{% endif %}</div>
-        <div class="entry-main"><h2>{{ item.title | escape }}</h2>{% if item.authors %}<p class="entry-authors">{{ item.authors | escape }}</p>{% endif %}{% if item.venue %}<p class="entry-venue">{{ item.venue | escape }}</p>{% endif %}{% if item.note %}<p>{{ item.note | escape }}</p>{% endif %}<div class="entry-links">{% if item.doi %}<a href="https://doi.org/{{ item.doi | escape }}" target="_blank" rel="noopener noreferrer">DOI ↗</a>{% endif %}{% if item.url %}<a href="{{ item.url | escape }}" target="_blank" rel="noopener noreferrer">Publication ↗</a>{% endif %}{% if item.pdf %}<a href="{{ item.pdf | relative_url }}">PDF ↗</a>{% endif %}{% if item.code %}<a href="{{ item.code | escape }}" target="_blank" rel="noopener noreferrer">Code ↗</a>{% endif %}</div></div>
-      </article>
-    {% endfor %}
-  </div>
-{% else %}
-  <div class="academic-empty"><span class="empty-index">PUBLICATIONS / 00</span><h2>Publication list in preparation.</h2><p>Verified publications and preprints will appear here with citation details and links.</p><a class="inline-link" href="{{ '/research/' | relative_url }}">Explore the research <span aria-hidden="true">→</span></a></div>
-{% endif %}
+{% if publications.size > 0 %}<div class="cv-rows">{% for item in publications %}<div class="cv-row"><span class="when">{{ item.year }}</span><div><strong>{{ item.title | escape }}</strong>{% if item.authors %}<span class="where">{{ item.authors | escape }}</span>{% endif %}{% if item.venue %}<p><em>{{ item.venue | escape }}</em>{% if item.type %}, {{ item.type | downcase }}{% endif %}</p>{% endif %}{% if item.note %}<p>{{ item.note | escape }}</p>{% endif %}<p>{% if item.doi %}<a href="https://doi.org/{{ item.doi | escape }}" target="_blank" rel="noopener noreferrer">doi</a> {% endif %}{% if item.url %}<a href="{{ item.url | escape }}" target="_blank" rel="noopener noreferrer">paper</a> {% endif %}{% if item.pdf %}<a href="{{ item.pdf | relative_url }}">pdf</a> {% endif %}{% if item.code %}<a href="{{ item.code | escape }}" target="_blank" rel="noopener noreferrer">code</a>{% endif %}</p></div></div>{% endfor %}</div>{% else %}<p class="empty-note">No publications yet.</p>{% endif %}

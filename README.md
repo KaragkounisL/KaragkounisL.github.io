@@ -4,18 +4,14 @@ Personal academic website built with Jekyll and hosted on GitHub Pages at <https
 
 ## Site structure
 
-- `_pages/about.md` and `_layouts/home-academic.html`: homepage and research overview.
-- `_pages/cv.md`: academic CV, education, experience, and training.
-- `_pages/research.html`: doctoral research and research interests.
-- `_pages/publications.html`: publications, populated from `_data/publications.yml`.
-- `_pages/talks.html`: conferences and talks, populated from `_data/talks.yml`.
-- `_pages/teaching.html`: teaching and service, populated from `_data/teaching.yml` and `_data/service.yml`.
-- `_pages/portfolio.html`: projects page. New projects can be added here when ready.
-- `assets/css/academic.css`: compact site design and responsive styling.
-- `_layouts/default.html`: shared header and footer.
-- `_config.yml`: site metadata and profile links.
-
-The previous template's sample blog posts, publications, talks, teaching entries, and projects have been removed. Empty Publications, Talks, and Teaching pages are ready but hidden from the main navigation until entries are added. Current research repositories are private and are not presented as public projects.
+- `_layouts/home-academic.html`: home page (bio, news, photo and links). `_pages/about.md` only sets its URL.
+- `_data/news.yml`: dated news items on the home page, newest first.
+- `_pages/research.html`: thesis and research interests.
+- `_pages/cv.md`: CV, including a short third-person bio.
+- `_pages/teaching.html`: teaching (from `_data/teaching.yml`) and service (from `_data/service.yml`, shown only when it has entries).
+- `_pages/publications.html`, `_pages/talks.html`: filled from `_data/publications.yml` and `_data/talks.yml`. They appear in the navigation only once their data file has entries.
+- `assets/css/academic.css`: all styling. A book-like design after Tufte CSS, set in EB Garamond, with light and dark themes.
+- `_layouts/default.html`: header, footer and the theme toggle.
 
 ## Add academic entries
 
@@ -46,6 +42,12 @@ Each `_data/*.yml` file starts as `[]`. Replace that line with a YAML list. Omit
   url: "https://example.org/event" # optional
   slides: "/files/slides.pdf" # optional, local PDF
   video: "https://example.org/video" # optional
+```
+
+```yaml
+# _data/news.yml
+- date: "Oct 2026" # shown as written
+  text: "One sentence, first person."
 ```
 
 ```yaml

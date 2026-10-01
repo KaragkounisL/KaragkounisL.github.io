@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Leonidas Christos Karagkounis"
 title_separator          : "-"
 name                     : &name "Leonidas Christos Karagkounis"
-description              : &description "PhD candidate at the University of Macedonia and independent research and development engineer."
+description              : &description "PhD candidate at the University of Macedonia working on explainable AI for security operations centers."
 url                      : https://KaragkounisL.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "KaragkounisL/KaragkounisL.github.io"
@@ -73,7 +73,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Leonidas Christos Karagkounis"
   avatar           : "profile.jpg"
-  bio              : "PhD candidate at the University of Macedonia; independent R&D services since March 2026."
-  location         : "Greece"
+  bio              : "PhD candidate, University of Macedonia. Explainable AI for security operations."
+  location         : "Thessaloniki, Greece"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
@@ -140,6 +140,7 @@ exclude:
   - assets/js/plugins
   - assets/js/vendor
   - config
+  - docs
   - gulpfile.js
   - log
   - node_modules
@@ -182,7 +183,7 @@ collections:
     output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
     output: false
@@ -255,7 +256,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Athens # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

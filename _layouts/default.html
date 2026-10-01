@@ -9,8 +9,42 @@ layout: compress
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header"><div class="site-shell header-inner"><a class="site-name" href="{{ '/' | relative_url }}">Leonidas C. Karagkounis</a><nav class="site-nav" aria-label="Main navigation"><a href="{{ '/' | relative_url }}">Home</a><a href="{{ '/research/' | relative_url }}">Research</a><a href="{{ '/cv/' | relative_url }}">CV</a>{% if site.data.publications.size > 0 %}<a href="{{ '/publications/' | relative_url }}">Publications</a>{% endif %}{% if site.data.talks.size > 0 %}<a href="{{ '/talks/' | relative_url }}">Talks</a>{% endif %}{% if site.data.teaching.size > 0 or site.data.service.size > 0 %}<a href="{{ '/teaching/' | relative_url }}">Teaching &amp; service</a>{% endif %}</nav></div></header>
+    <header class="site-header">
+      <div class="site-shell header-inner">
+        <a class="site-name" href="{{ '/' | relative_url }}">Leonidas C. Karagkounis</a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="{{ '/research/' | relative_url }}"{% if page.url == '/research/' %} aria-current="page"{% endif %}>Research</a>
+          {% if site.data.publications.size > 0 %}<a href="{{ '/publications/' | relative_url }}"{% if page.url == '/publications/' %} aria-current="page"{% endif %}>Publications</a>{% endif %}
+          {% if site.data.talks.size > 0 %}<a href="{{ '/talks/' | relative_url }}"{% if page.url == '/talks/' %} aria-current="page"{% endif %}>Talks</a>{% endif %}
+          {% if site.data.teaching.size > 0 %}<a href="{{ '/teaching/' | relative_url }}"{% if page.url == '/teaching/' %} aria-current="page"{% endif %}>Teaching</a>{% endif %}
+          <a href="{{ '/cv/' | relative_url }}"{% if page.url == '/cv/' %} aria-current="page"{% endif %}>CV</a>
+          <button class="theme-toggle" type="button" aria-label="Switch colour theme">dark</button>
+        </nav>
+      </div>
+    </header>
     {{ content }}
-    <footer class="site-footer"><div class="site-shell footer-inner"><span>© {{ site.time | date: '%Y' }} Leonidas Christos Karagkounis</span><div><a href="https://orcid.org/0009-0007-7059-5379" target="_blank" rel="noopener noreferrer">ORCID</a><a href="https://github.com/KaragkounisL" target="_blank" rel="noopener noreferrer">GitHub</a></div></div></footer>
+    <footer class="site-footer">
+      <div class="site-shell footer-inner">
+        <span>Leonidas Christos Karagkounis &middot; updated {{ site.time | date: '%B %Y' }}</span>
+        <div><a href="https://orcid.org/0009-0007-7059-5379" target="_blank" rel="noopener noreferrer">ORCID</a><a href="https://github.com/KaragkounisL" target="_blank" rel="noopener noreferrer">GitHub</a></div>
+      </div>
+    </footer>
+    <script>
+      (function () {
+        var root = document.documentElement;
+        var button = document.querySelector('.theme-toggle');
+        var query = window.matchMedia('(prefers-color-scheme: dark)');
+        function current() { return root.getAttribute('data-theme') || (query.matches ? 'dark' : 'light'); }
+        function label() { button.textContent = current() === 'dark' ? 'light' : 'dark'; }
+        button.addEventListener('click', function () {
+          var next = current() === 'dark' ? 'light' : 'dark';
+          root.setAttribute('data-theme', next);
+          try { localStorage.setItem('theme', next); } catch (e) {}
+          label();
+        });
+        if (query.addEventListener) { query.addEventListener('change', label); }
+        label();
+      })();
+    </script>
   </body>
 </html>

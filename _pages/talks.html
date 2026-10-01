@@ -1,17 +1,7 @@
 ---
 layout: academic-page
-title: "Conferences & Talks"
-kicker: "ACADEMIC OUTPUT / PRESENTATIONS"
-intro: "Conference contributions, invited talks, seminars, posters, and workshops."
+title: "Talks"
 permalink: /talks/
 ---
 {% assign talks = site.data.talks | sort: 'date' | reverse %}
-{% if talks.size > 0 %}
-  <div class="academic-list" aria-label="Conferences and talks">
-    {% for item in talks %}
-      <article class="academic-entry"><div class="entry-side"><span>{{ item.date | date: '%Y' }}</span>{% if item.type %}<span>{{ item.type }}</span>{% endif %}</div><div class="entry-main"><h2>{{ item.title | escape }}</h2>{% if item.event %}<p class="entry-venue">{{ item.event | escape }}</p>{% endif %}<p class="entry-meta">{{ item.date | date: '%B %Y' }}{% if item.location %} · {{ item.location | escape }}{% endif %}</p>{% if item.description %}<p>{{ item.description | escape }}</p>{% endif %}<div class="entry-links">{% if item.url %}<a href="{{ item.url | escape }}" target="_blank" rel="noopener noreferrer">Event ↗</a>{% endif %}{% if item.slides %}<a href="{{ item.slides | relative_url }}">Slides ↗</a>{% endif %}{% if item.video %}<a href="{{ item.video | escape }}" target="_blank" rel="noopener noreferrer">Video ↗</a>{% endif %}</div></div></article>
-    {% endfor %}
-  </div>
-{% else %}
-  <div class="academic-empty"><span class="empty-index">PRESENTATIONS / 00</span><h2>Talks and events will appear here.</h2><p>Conference presentations, posters, invited talks, and workshops will be listed when their details are confirmed.</p><a class="inline-link" href="{{ '/research/' | relative_url }}">Explore the research <span aria-hidden="true">→</span></a></div>
-{% endif %}
+{% if talks.size > 0 %}<div class="cv-rows">{% for item in talks %}<div class="cv-row"><span class="when">{{ item.date | date: '%b %Y' }}</span><div><strong>{{ item.title | escape }}</strong>{% if item.event %}<span class="where">{{ item.event | escape }}{% if item.location %}, {{ item.location | escape }}{% endif %}</span>{% endif %}{% if item.description %}<p>{{ item.description | escape }}</p>{% endif %}<p>{% if item.url %}<a href="{{ item.url | escape }}" target="_blank" rel="noopener noreferrer">event</a> {% endif %}{% if item.slides %}<a href="{{ item.slides | relative_url }}">slides</a> {% endif %}{% if item.video %}<a href="{{ item.video | escape }}" target="_blank" rel="noopener noreferrer">video</a>{% endif %}</p></div></div>{% endfor %}</div>{% else %}<p class="empty-note">No talks yet.</p>{% endif %}
